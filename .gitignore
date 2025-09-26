@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs & caches
+*.log
+*.sqlite
+*.db
+.cache/
+chromadb/
+rag_chroma/
+
+# Data outputs
+*.jsonl
+*.parquet
+*.csv
+*.xlsx
+
+# Build
+dist/
+build/
+*.egg-info/
